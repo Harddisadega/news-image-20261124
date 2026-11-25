@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The World in One Image — 24 November 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1024px; height: 1024px; }
+  body {
+    background: #f8f4e9;
+    color: #141414;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 18px 26px 14px;
+    display: flex;
+    flex-direction: column;
+  }
+  .red { color: #b3122e; }
+
+  /* ---------- Masthead ---------- */
+  .masthead { text-align: center; }
+  .kicker {
+    font-size: 10px; letter-spacing: 4px; font-weight: bold;
+    color: #b3122e; text-transform: uppercase;
+  }
+  h1 {
+    font-size: 46px; line-height: 1.05; font-weight: 900;
+    letter-spacing: 1px; margin: 4px 0 5px;
+  }
+  .dateline {
+    display: flex; justify-content: space-between;
+    border-top: 3px solid #141414;
+    border-bottom: 1px solid #141414;
+    padding: 4px 2px;
+    font-size: 11px; font-weight: bold; letter-spacing: 1.5px;
+  }
+
+  /* ---------- Lead stories ---------- */
+  .leads {
+    display: flex; gap: 20px;
+    padding: 12px 0 10px;
+    border-bottom: 3px solid #141414;
+  }
+  .lead { flex: 1; }
+  .lead + .lead { border-left: 1px solid #c9c0a8; padding-left: 20px; }
+  .chip {
+    display: inline-block; background: #b3122e; color: #fff;
+    font-size: 9px; font-weight: bold; letter-spacing: 1.5px;
+    padding: 2px 7px; margin-bottom: 5px; text-transform: uppercase;
+  }
+  .lead h2 { font-size: 24px; line-height: 1.12; font-weight: 900; margin-bottom: 4px; }
+  .lead p { font-size: 12px; line-height: 1.45; color: #222; }
+
+  /* ---------- Grid of 48 ---------- */
+  .grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    column-gap: 16px;
+    padding-top: 2px;
+  }
+  .cell { border-top: 1px solid #ddd5c2; padding: 5px 0 0; overflow: hidden; }
+  .cell:nth-child(-n+4) { border-top: none; }
+  .tag {
+    font-size: 8px; font-weight: bold; letter-spacing: 1px;
+    color: #b3122e; text-transform: uppercase; margin-bottom: 2px;
+  }
+  .cell h3 { font-size: 10.5px; line-height: 1.18; font-weight: 900; margin-bottom: 2px; }
+  .cell p { font-size: 9px; line-height: 1.22; color: #222; }
+
+  /* ---------- Footer ---------- */
+  .footer {
+    border-top: 3px solid #141414;
+    margin-top: 8px; padding-top: 5px;
+    display: flex; justify-content: space-between;
+    font-size: 9px; font-weight: bold; letter-spacing: 1.5px;
+  }
+</style>
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="kicker">One Day &middot; Fifty Stories &middot; From Around the World</div>
+    <h1>THE WORLD IN ONE IMAGE</h1>
+    <div class="dateline">
+      <span>TUESDAY &middot; 24 NOVEMBER 2026</span>
+      <span>ONE DAY &middot; 50 STORIES</span>
+    </div>
+  </header>
+
+  <section class="leads">
+    <article class="lead">
+      <span class="chip">Tech &middot; The Comeback</span>
+      <h2>Huang Returns to Nvidia&rsquo;s Helm</h2>
+      <p>Nvidia&rsquo;s board unanimously reinstates Jensen Huang as chief executive and chairman, just days after rejecting his offer to return &mdash; a comeback brokered by Donald Trump that sent the chipmaker&rsquo;s shares soaring and drew questions from US politicians.</p>
+    </article>
+    <article class="lead">
+      <span class="chip">Tech &middot; The Fallout</span>
+      <h2>US Blacklists Megaspeed, Alibaba Arm</h2>
+      <p>Washington adds Megaspeed and Alibaba&rsquo;s Apex unit to its trade blacklist over suspected diversions of Nvidia AI chips to China &mdash; hours after Huang&rsquo;s return, as Alibaba calls the move erroneous.</p>
+    </article>
+  </section>
+
+  <section class="grid">
+    <article class="cell"><div class="tag">Ukraine</div><h3>Lukashenko Offers Joint Flight to Moscow</h3><p>Belarus leader proposes flying with Zelenskyy to Kremlin talks to end the war.</p></article>
+    <article class="cell"><div class="tag">Trade</div><h3>Trump Readies New Tariffs</h3><p>Section 301 findings on excess factory capacity in 16 partners are due, with new duties expected.</p></article>
+    <article class="cell"><div class="tag">China</div><h3>Beijing Probes Politburo Member</h3><p>Shanghai chief Chen Jining is under investigation, the fourth top leader probed since 2025.</p></article>
+    <article class="cell"><div class="tag">Mideast</div><h3>Riyadh Tower Hit in &ldquo;Terrorist Attack&rdquo;</h3><p>Coalition says a skyscraper in the financial district was targeted; 11 hurt in a Houthi drone strike.</p></article>
+    <article class="cell"><div class="tag">Yemen</div><h3>Houthis Near Aden, Army Vows Hold</h3><p>Fighters push within 60 km of Aden, but Yemen&rsquo;s military says they will not take the capital.</p></article>
+    <article class="cell"><div class="tag">Israel</div><h3>Eisenkot Clinches First Coalition Deal</h3><p>Yashar signs its first pact, with Lieberman&rsquo;s party, in the bid to form a government.</p></article>
+    <article class="cell"><div class="tag">Gaza</div><h3>Israeli Strike Kills Hamas Security Chief</h3><p>An Israeli air strike kills Hamas&rsquo;s internal security chief in Gaza.</p></article>
+    <article class="cell"><div class="tag">Iran</div><h3>Tehran Sets Seven Conditions for Talks</h3><p>Iran insists there will be no talks with the US until its seven conditions are met.</p></article>
+    <article class="cell"><div class="tag">Iran</div><h3>Iran Flogs Singer Over Hijab Song</h3><p>Authorities flog a singer who performed without a hijab, her lawyers say.</p></article>
+    <article class="cell"><div class="tag">Gaza</div><h3>Gaza Now a &ldquo;Toxic Wasteland&rdquo;</h3><p>Oxfam says Israeli attacks have turned Gaza into a toxic wasteland.</p></article>
+    <article class="cell"><div class="tag">Cyber</div><h3>Unclassified CIA System Breached</h3><p>An unclassified CIA system was breached in a cyberattack, an AP source says.</p></article>
+    <article class="cell"><div class="tag">NATO</div><h3>NATO Vows Space Defence</h3><p>NATO&rsquo;s chief vows defence against the space threat after reports of a Russian nuclear satellite.</p></article>
+    <article class="cell"><div class="tag">Russia</div><h3>Moscow Backs Tax Rises, Arms Budget</h3><p>Russia backs tax rises as its 2027 budget sees military spending soar.</p></article>
+    <article class="cell"><div class="tag">Russia</div><h3>Russian Governor Detained</h3><p>A governor is detained in a rare criminal case against a regional leader.</p></article>
+    <article class="cell"><div class="tag">Africa</div><h3>Zimbabwean Jailed Over Ukraine Bid</h3><p>A Zimbabwean is convicted in South Africa of trying to fight in Ukraine.</p></article>
+    <article class="cell"><div class="tag">Congo</div><h3>DR Congo Warplane Goes Missing</h3><p>DR Congo says a military aircraft is missing as rebels claim to have shot it down.</p></article>
+    <article class="cell"><div class="tag">Migration</div><h3>175 Migrants Missing off Senegal</h3><p>Around 175 are unaccounted for after contact was lost with a Europe-bound boat from Dakar.</p></article>
+    <article class="cell"><div class="tag">Syria</div><h3>Syria Land-Mine Toll Soars</h3><p>Land-mine casualties soar in Syria two years after the war.</p></article>
+    <article class="cell"><div class="tag">Myanmar</div><h3>UK Sanctions Myanmar Generals</h3><p>Britain sanctions top military leaders after a Rohingya genocide ruling.</p></article>
+    <article class="cell"><div class="tag">Bangladesh</div><h3>Garment Workers Clash With Police</h3><p>Pay protests shut factories in Gazipur as police fire tear gas; workers want wages doubled.</p></article>
+    <article class="cell"><div class="tag">Bangladesh</div><h3>Hasina Plans December Return</h3><p>Exiled former PM Sheikh Hasina says she plans to return to Bangladesh on 16 December.</p></article>
+    <article class="cell"><div class="tag">India</div><h3>&ldquo;Cockroach&rdquo; Leader Barred From Flight</h3><p>An Indian party leader says he was stopped from flying to the UK.</p></article>
+    <article class="cell"><div class="tag">Nigeria</div><h3>92-Year-Old Monarch Suspended</h3><p>A Nigerian monarch, 92, is suspended after sexual assault claims.</p></article>
+    <article class="cell"><div class="tag">Colombia</div><h3>Car Bomb Wounds 20 in City</h3><p>A car bomb tears through a Colombian city, wounding more than 20 people.</p></article>
+    <article class="cell"><div class="tag">Culture</div><h3>Miley Cyrus Marries in Palm Springs</h3><p>Singer Miley Cyrus marries rock drummer Maxx Morando in an intimate ceremony.</p></article>
+    <article class="cell"><div class="tag">Mexico</div><h3>Mexico Inflation Hits Six-Month High</h3><p>Annual inflation accelerates to 3.96% in early November, though core inflation eases.</p></article>
+    <article class="cell"><div class="tag">Australia</div><h3>Canberra Readies Tech Duty of Care</h3><p>Australia is set to pass a duty of care law, with fines up to 5% of tech giants&rsquo; revenue.</p></article>
+    <article class="cell"><div class="tag">Environment</div><h3>Rope Bridges Save Costa Rica&rsquo;s Sloths</h3><p>Simple rope bridges offer sloths a lifeline as forests disappear.</p></article>
+    <article class="cell"><div class="tag">Crime</div><h3>&lsquo;El Chapo Isidro&rsquo; to Face Trial in Mexico</h3><p>Mexico will try the captured cartel boss at home despite a US extradition request, its attorney general says.</p></article>
+    <article class="cell"><div class="tag">Climate</div><h3>5,200 Heat Deaths in England</h3><p>A record 5,200 heat-linked deaths are estimated in England this year.</p></article>
+    <article class="cell"><div class="tag">Science</div><h3>Record Quasar Found Near Dawn of Time</h3><p>Scientists find a quasar formed within 630 million years of the Big Bang, a record.</p></article>
+    <article class="cell"><div class="tag">Tech</div><h3>Huawei Guilty of Trade-Secret Theft</h3><p>Huawei is found guilty of stealing trade secrets in a US trial but cleared of racketeering.</p></article>
+    <article class="cell"><div class="tag">Markets</div><h3>Nvidia Shares Slide on Trump Questions</h3><p>Nvidia shares slide as US politicians question Trump&rsquo;s role in Huang&rsquo;s comeback.</p></article>
+    <article class="cell"><div class="tag">Markets</div><h3>Dell Lifts Outlook on AI Boom</h3><p>Dell lifts annual forecasts after a record quarter driven by surging AI server demand.</p></article>
+    <article class="cell"><div class="tag">Economy</div><h3>US Consumer Confidence Soars</h3><p>Confidence soars with the elections over and petrol prices in retreat.</p></article>
+    <article class="cell"><div class="tag">US Politics</div><h3>Democrats Clinch 259 House Seats</h3><p>House Democrats secure at least 259 seats, their largest majority since 1990.</p></article>
+    <article class="cell"><div class="tag">US Politics</div><h3>Court Opens Path to Erase Hush-Money Case</h3><p>An appeals court gives President Trump a path to erasing his hush-money conviction.</p></article>
+    <article class="cell"><div class="tag">US</div><h3>Abrego Garcia to Leave US</h3><p>Salvadoran migrant Kilmar Abrego Garcia will leave the US voluntarily to avoid deportation.</p></article>
+    <article class="cell"><div class="tag">US</div><h3>Trump Pardons Turkeys Freedom, Feathers</h3><p>Trump offers the traditional Thanksgiving pardons for two turkeys at the White House.</p></article>
+    <article class="cell"><div class="tag">US</div><h3>Giuliani Receives Medal of Freedom</h3><p>Trump awards Rudy Giuliani the Presidential Medal of Freedom.</p></article>
+    <article class="cell"><div class="tag">Sport</div><h3>Cubs Land Rogers for $120m</h3><p>The Chicago Cubs add Trevor Rogers to their rotation on a $120m, five-year deal.</p></article>
+    <article class="cell"><div class="tag">Culture</div><h3>U2 Announce New Album and Tour</h3><p>U2&rsquo;s new album is about &ldquo;defiant joy&rdquo;; the band will tour North America next summer.</p></article>
+    <article class="cell"><div class="tag">US</div><h3>Iowa Blast Gets Court Go-Ahead</h3><p>A US court clears the Army to detonate its stockpile of toxic lead azide explosives in Iowa.</p></article>
+    <article class="cell"><div class="tag">UK</div><h3>Inquiry Into Nuclear-Test Veterans</h3><p>Britain launches an inquiry into the impact of nuclear tests on veterans and families.</p></article>
+    <article class="cell"><div class="tag">France</div><h3>Sarkozy and Bruni to Face Trial</h3><p>Ex-President Nicolas Sarkozy and wife Carla Bruni are to face trial.</p></article>
+    <article class="cell"><div class="tag">UK</div><h3>Afghan Women Lose UK University Visas</h3><p>Afghan women with UK university offers are &ldquo;heartbroken&rdquo; after their visas are stopped.</p></article>
+    <article class="cell"><div class="tag">France</div><h3>Pelicot &ldquo;Humiliated&rdquo; by Photo Leak</h3><p>Gis&egrave;le Pelicot is &ldquo;humiliated&rdquo; after nude photos are sent to media to promote a book.</p></article>
+    <article class="cell"><div class="tag">Sport</div><h3>Senegal Reinstated as AFCON Winners</h3><p>Senegal are reinstated as AFCON 2025 winners by a court ruling, ten months on.</p></article>
+  </section>
+
+  <footer class="footer">
+    <span>TUESDAY &middot; 24 NOVEMBER 2026</span>
+    <span>SOURCES: REUTERS &middot; AP &middot; BBC</span>
+    <span>50 STORIES, ONE DAY</span>
+  </footer>
+
+</body>
+</html>
